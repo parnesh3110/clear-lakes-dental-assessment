@@ -69,13 +69,12 @@ Also make sure Email authentication is enabled:
 2. Enable Email provider
 3. Disable "Confirm email" for testing
 
-You'll need to set up a Supabase project. Create a `.env` file:
+You'll need to set up a Supabase project. Create a `.env` and for credentials you can either use creds attached in the mail or create and use your own supabase credentials and add it to the .env in this format:
 
-```bash
-cp .env.example .env
 ```
-
-````
+SUPABASE_URL = supabase url
+SUPABASE_KEY = supabase api key
+```
 
 Then create a table called '**entries**' in Supabase with these columns:
 
@@ -92,7 +91,7 @@ Run the dev server:
 
 npm run dev
 
-````
+```
 
 Go to http://localhost:3000 or https://clear-lakes-dental-assessment.vercel.app and you should see the login page.
 Create a new user and you can see the previously added records by the user.
