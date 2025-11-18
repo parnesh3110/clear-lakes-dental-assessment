@@ -96,7 +96,7 @@ npm run dev
 
 Go to http://localhost:3000 or https://clear-lakes-dental-assessment.vercel.app and you should see the login page.
 Create a new user and you can see the previously added records by the user.
-You can create a new record and it will be save to the database.
+You can create a new record and it will be saved to the database.
 
 ## What It Does
 
