@@ -142,7 +142,3 @@ I disabled Row Level Security on the entries table to keep things simple. In pro
 The page auto-refreshes every 5 seconds so you can see new entries without manually refreshing.
 
 If you log out and log back in, all your data is still there since it's stored in supabase's postgres database.
-
-```
-
-```
