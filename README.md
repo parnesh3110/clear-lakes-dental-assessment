@@ -32,6 +32,8 @@ npm run dev
 
 A data management application I built for the Clear Lakes Dental SWE Intern position. Users can sign up, log in, and manage entries through a simple interface.
 
+**Live Demo:** [https://clear-lakes-dental-assessment.vercel.app]
+
 ## Getting Started
 
 Clone the repo and install dependencies on your terminal:
