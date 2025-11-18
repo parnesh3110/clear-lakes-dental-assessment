@@ -42,7 +42,7 @@ npm install
 
 ### Database Setup
 
-In Supabase projects, create the **'entries'** table by running this SQL in the SQL Editor:
+In Supabase projects, create the '**entries**' table by running this SQL in the SQL Editor:
 
 ```sql
 CREATE TABLE entries (
@@ -75,7 +75,7 @@ cp .env.example .env
 
 ````
 
-Then create a table called **'entries'** in Supabase with these columns:
+Then create a table called '**entries**' in Supabase with these columns:
 
 - id (uuid, primary key)
 - user_id (uuid, references auth.users)
@@ -142,7 +142,3 @@ I disabled Row Level Security on the entries table to keep things simple. In pro
 The page auto-refreshes every 5 seconds so you can see new entries without manually refreshing.
 
 If you log out and log back in, all your data is still there since it's stored in supabase's postgres database.
-
-```
-
-```
